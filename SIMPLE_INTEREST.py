@@ -1,2 +1,4 @@
-p,t,r=map(int,input().split())
-print(((p*t*r)//100))
+inputs = input()
+pri, rat, tim = map(int, inputs.split())
+si=(pri*rat*tim)/100
+print(int(si))
