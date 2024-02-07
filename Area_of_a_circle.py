@@ -1,2 +1,3 @@
 n=int(input())
-print("{:.2f}".format(3.14*n*n))
+area=3.14*n*n
+print(round(area,2))
