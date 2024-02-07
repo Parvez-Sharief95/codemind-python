@@ -1,1 +1,3 @@
-print(int(input())//10)
+x=int(input())
+div=int(x//10)
+print(div)
